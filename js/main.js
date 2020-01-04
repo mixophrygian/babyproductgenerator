@@ -58,12 +58,27 @@ const suffixes = [
   "by"
 ];
 
+const dumbGradients = [
+  "linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(85,0,255,1) 100%)",
+  "linear-gradient(90deg, rgba(255, 0, 215, 0.31) 0%, rgb(0, 211, 255) 100%)",
+  "linear-gradient(90deg, rgba(0,255,149,1) 0%, rgba(0,99,255,1) 100%)",
+  "linear-gradient(260deg, rgba(0,255,218,1) 0%, rgba(85,0,255,1) 100%)",
+  "linear-gradient(260deg, rgba(255, 0, 215, 0.31) 0%, rgb(0, 211, 255) 100%)",
+  "linear-gradient(260deg, rgba(0,255,149,1) 0%, rgba(0,99,255,1) 100%)"
+];
+
 function generateNewDumbName() {
   const text = document.getElementById("dumbName");
+  const bg = document.getElementById("body");
   text.style.opacity = 0;
   setTimeout(() => {
     setNewDumbName(text);
+    setNewDumbBackground(bg);
   }, 250);
+}
+
+function setNewDumbBackground(bg) {
+  bg.style.background = dumbGradients[arrayRandomIndex(dumbGradients)];
 }
 
 function setNewDumbName(text) {
