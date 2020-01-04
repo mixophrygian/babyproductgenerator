@@ -59,6 +59,14 @@ const suffixes = [
 ];
 
 function generateNewDumbName() {
+  const text = document.getElementById("dumbName");
+  text.style.opacity = 0;
+  setTimeout(() => {
+    setNewDumbName(text);
+  }, 250);
+}
+
+function setNewDumbName(text) {
   const hasBonus = Math.random() <= 0.2;
   let bonus = "";
   if (hasBonus) bonus = bonusName[arrayRandomIndex(bonusName)];
@@ -67,7 +75,8 @@ function generateNewDumbName() {
   const suffix = suffixes[arrayRandomIndex(suffixes)];
   const newDumbName = bonus + prefix + vowel + suffix;
   console.log(newDumbName);
-  document.getElementById("dumbName").innerHTML = newDumbName;
+  text.innerHTML = newDumbName;
+  text.style.opacity = 1;
 }
 
 function arrayRandomIndex(array) {
