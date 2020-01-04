@@ -139,6 +139,19 @@ body {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media only screen and (min-width: 810px) {
+  .main-container {
+    margin-top: 10vw;
+  }
+
+  #dumbName {
+    font-size: 12vw;
+  }
+
+  .moreButton {
+    margin-top: 10vw;
+  }
+}
 
 .clearfix:before,
 .clearfix:after {
