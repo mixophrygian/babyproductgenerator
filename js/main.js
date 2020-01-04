@@ -26,7 +26,8 @@ const prefixes = [
   "Smart",
   "Nan",
   "H",
-  "Oog"
+  "Oog",
+  "Hug"
 ];
 
 const vowels = ["i", "u", "uu", "oo", "o", "y", "ee", "a"];
@@ -44,6 +45,7 @@ const suffixes = [
   "roo",
   "ry",
   "li",
+  "lli",
   "my",
   "bo",
   "tot",
