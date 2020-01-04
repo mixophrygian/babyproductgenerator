@@ -20,6 +20,7 @@ const prefixes = [
   "N",
   "R",
   "Sw",
+  "Sm",
   "Teeny",
   "Sooth",
   "Smart",
@@ -73,7 +74,7 @@ function generateNewDumbName() {
   text.style.opacity = 0;
   setTimeout(() => {
     setNewDumbName(text);
-    setNewDumbBackground(bg);
+    //setNewDumbBackground(bg);
   }, 250);
 }
 
