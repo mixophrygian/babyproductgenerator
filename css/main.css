@@ -57,8 +57,10 @@ textarea {
 
 body {
   display: flex;
+  height: 100vh;
+  flex-direction: column;
   align-items: center;
-  align-content: center;
+  /* justify-content: space-between; */
   font: 16px/26px "Itim", cursive, Helvetica, Helvetica Neue, Arial;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#32fceb+0,8487f4+100 */
   background: #32fceb; /* Old browsers */
@@ -79,20 +81,6 @@ body {
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32fceb', endColorstr='#8487f4',GradientType=1 ); /* IE6-9 */
 }
-
-.wrapper {
-  width: 90%;
-  margin: 0 5%;
-}
-
-/* ==============
-    MOBILE: Main
-   ============== */
-
-.main {
-  padding: 30px 0;
-}
-
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -103,28 +91,33 @@ body {
 
 /* ==========================================================================
    Author's custom styles
+   
    ========================================================================== */
 
-.dumbName {
+.main-container {
+  margin-top: 35vw;
+}
+
+#dumbName {
   text-align: center;
   color: white;
-  font-size: 25.5vw;
+  font-size: 18vw;
+  line-height: 18vw;
+  max-height: 18vw;
+  margin: 0;
+}
+
+.moreButton {
+  margin-top: 23vw;
+  border: 1px solid white;
+  border-radius: 500px;
+  background-color: white;
+  padding: 0 12px;
 }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-@media only screen and (min-width: 1140px) {
-  /* ===============
-    Maximal Width
-   =============== */
-
-  .wrapper {
-    width: 1026px; /* 1140px - 10% for margins */
-    margin: 0 auto;
-  }
-}
 
 .clearfix:before,
 .clearfix:after {
