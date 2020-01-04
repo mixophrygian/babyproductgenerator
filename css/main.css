@@ -61,7 +61,7 @@ body {
   flex-direction: column;
   align-items: center;
   /* justify-content: space-between; */
-  font: 16px/26px "Itim", cursive, Helvetica, Helvetica Neue, Arial;
+  font: 16px/26px "Itim", Helvetica, Helvetica Neue, Arial;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#32fceb+0,8487f4+100 */
   background: #32fceb; /* Old browsers */
   background: -moz-linear-gradient(
