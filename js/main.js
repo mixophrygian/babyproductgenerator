@@ -88,12 +88,12 @@ const dumbGradients = [
 function generateNewDumbName() {
   const text = document.getElementById("dumbName");
   const bg = document.getElementById("body");
-  const price = document.getElementById("dumbPrice");
+  //const price = document.getElementById("dumbPrice");
   text.style.opacity = 0;
-  price.style.opacity = 0;
+  //price.style.opacity = 0;
   setTimeout(() => {
     setNewDumbName(text);
-    // setNewDumbPrice(price);
+    //setNewDumbPrice(price);
     //setNewDumbBackground(bg);
     // setTimeout(() => {
     //   price.style.opacity = 1;
