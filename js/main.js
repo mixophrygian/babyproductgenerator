@@ -93,11 +93,11 @@ function generateNewDumbName() {
   price.style.opacity = 0;
   setTimeout(() => {
     setNewDumbName(text);
-    setNewDumbPrice(price);
+    // setNewDumbPrice(price);
     //setNewDumbBackground(bg);
-    setTimeout(() => {
-      price.style.opacity = 1;
-    }, 500);
+    // setTimeout(() => {
+    //   price.style.opacity = 1;
+    // }, 500);
   }, 250);
 }
 
