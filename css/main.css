@@ -112,6 +112,16 @@ body {
   transition: opacity 0.25s ease-in-out;
 }
 
+#dumbPrice {
+  text-align: right;
+  color: white;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+
 .moreButton {
   margin-top: 23vw;
   border: 1px solid white;
