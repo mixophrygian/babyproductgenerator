@@ -57,7 +57,7 @@ textarea {
 
 body {
   display: flex;
-  height: 100vh;
+  height: 75vh;
   flex-direction: column;
   align-items: center;
   /* justify-content: space-between; */
@@ -132,7 +132,7 @@ body {
 
 .footer-container {
   position: fixed;
-  bottom: 5vh;
+  bottom: 10vh;
 }
 
 #twitter {
