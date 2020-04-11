@@ -154,12 +154,16 @@ body {
     margin-top: 10vw;
   }
 
+  .footer-container {
+    right: 10vh;
+  }
+
   #dumbName {
     font-size: 12vw;
   }
 
   .moreButton {
-    margin-top: 10vw;
+    margin-top: 8vw;
   }
 }
 
